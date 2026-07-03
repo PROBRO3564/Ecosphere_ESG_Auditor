@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-from expense_agent.agent import analyze_expenses
-
-# ==========================================
+from agent import analyze_expenses# ==========================================
 # 1. PAGE CONFIGURATION & STYLING
 # ==========================================
 st.set_page_config(
